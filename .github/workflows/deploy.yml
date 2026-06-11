@@ -25,7 +25,7 @@ jobs:
           sudo yum install git -y &&
           cd /home/ec2-user &&
           rm -rf cloud-coursework &&
-          git clone https://github.com/Dulmeth-Arosha/cloud-coursework.git 
+          git clone https://github.com/Dulmeth-Arosha/Cloud-CW.git &&
           cd cloud-coursework &&
           sudo cp index.html /usr/share/nginx/html/index.html &&
           sudo systemctl restart nginx
